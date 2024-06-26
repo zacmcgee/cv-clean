@@ -2,7 +2,7 @@
 % Edited: 31/05/2020
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{my_cv}[2011/03/26 My custom CV class]
+\ProvidesClass{localcv}
 
 \LoadClass{article}
 
@@ -78,7 +78,6 @@
 %   \vspace{-5pt}
 %   #2 \hfill #3 \\
 %   #4
-}
 
 \pagestyle{empty}
 
