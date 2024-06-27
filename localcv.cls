@@ -52,7 +52,7 @@
 
 \newcommand{\edsubsection}[5]{%
 %   \vspace{-5pt}
-\begin{tabular*}{\textwidth}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
 	\vspace{-0.5pt}
 	{\scshape{\bfseries #1}} & #2 \\
 	{#3} & {\small#4} \\
@@ -62,10 +62,10 @@
 
 \newcommand{\worksubsection}[5]{%
 %   \vspace{-5pt}
-\begin{tabular*}{\textwidth}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
 	\textbf{\textsc{#1}} & #2 \\
 	{#3} & {\small#4} \\
-\end{tabular*}\\
+\end{tabular*}
 \parbox{0.75\textwidth}{
 \small
     \begin{itemize}
